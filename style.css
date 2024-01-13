@@ -12,22 +12,18 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: linear-gradient(
-        -225deg,
-        #231557 0%,
-        #44107a 15%,
-        #13ff3a 50%,
-        #00a2ff 120%
-      );
+    background-image: url(wall.jpg);
 }
 
 .container{
-    width: 800px;
-    background: #fff;
+    width: 700px;
+    background: #F0F0F0;
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
     margin-top: -300px;
     border: 2.5px solid black;
+    
+    
 }
 
 .container h2{
@@ -49,7 +45,7 @@ body{
 .input-box input{
     width: 100%;
     height: 53px;
-    color: #000;
+    color: #000000;
     background: none;
     font-size: 1.06rem;
     font-weight: 500;
@@ -158,7 +154,7 @@ body{
     border: none;
     outline: none;
     cursor: pointer;
-    background: #43A047;
+    background: #4360a0;
     font-size: 1.06rem;
     padding: 0.94rem 0;
     border-radius: 5px;
@@ -170,7 +166,7 @@ body{
     opacity: 0.9;
 }
 em{
-    color: green;
+    color: white;
     font-size: 25px;
     
 }
@@ -178,28 +174,29 @@ e{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     cursor: auto;
+    
         
 }
 r{
-    color: green;
+    color: black
 }
 t{
-color: green;
+    color: black
 
 }
 y{
-    color: green;
+    color: black
 
 }
 u{
-    color: green;
+    color: black
 
 }
 i{
-    color: green;
+    color: black
 }
 o{
-    color: green;
+    color: black;
 }
 .pass-settings{
     
@@ -217,7 +214,7 @@ o{
   }
   
   .title-word-2 {
-    --color-1: #24b330;
+    --color-1: #24b39b;
     --color-2: #ACCFCB;
     --color-3: #17494D;
   }
